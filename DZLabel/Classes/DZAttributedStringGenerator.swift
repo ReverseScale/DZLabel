@@ -184,7 +184,7 @@ public extension DZAttributedStringGenerator {
         guard let string = attributedString?.string else {
             return self
         }
-        var attri: [NSAttributedString.Key: Any] = [NSAttributedString.Key.underlineStyle: NSNumber(value: NSUnderlineStyle.single.rawValue)]
+        var attri: [NSAttributedString.Key: Any] = [NSAttributedString.Key.underlineStyle: NSNumber(value: NSUnderlineStyle.styleSingle.rawValue)]
         
         if let color = color {
             attri[NSAttributedString.Key.underlineColor] = color
